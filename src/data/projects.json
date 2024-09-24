@@ -1,0 +1,23 @@
+[
+    {
+        "title" : "Corner Cup Inventory Management",
+        "imageSrc": "ccwebsite.png",
+        "description" : "An inventory management application to organize and display real-time data across various supply categories.",
+        "skills" : ["Flask", "MySql", "HTML"],
+        "source" : "https://github.com/mshowkat6/Corner-Cup"
+    },
+    {
+        "title" : "Georgia Tech MSA Website",
+        "imageSrc": "msawebsite.png",
+        "description" : "The official website of Georgia Tech's 2024-2025 Muslim Students' Association.",     
+        "skills" : ["React", "CSS", "Figma"],
+        "source" : "https://github.com/mshowkat6/gt-msa-website"
+    },
+    {
+        "title" : "The Tortoise and the Hare",
+        "imageSrc": "game.png",
+        "description" : "A fully animated game with responsive controls and smooth gameplay.",     
+        "skills" : ["C", "Docker", "mGBA"],
+        "source" : "https://github.com/mshowkat6/tortoise-and-the-hare"
+    }
+]

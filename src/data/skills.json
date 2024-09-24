@@ -1,0 +1,50 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "html.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "css.png"
+    },
+    {
+        "title": "JS",
+        "imageSrc": "node.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "java.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "python.png"
+    },
+    {
+        "title": "C",
+        "imageSrc": "c.png"
+    },
+    {
+        "title": "C++",
+        "imageSrc": "c++.png"
+    },
+    {
+        "title": "MySql",
+        "imageSrc": "sql.png"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "figma.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "react.png"
+    },
+    {
+        "title": "Flask",
+        "imageSrc": "flask.png"
+    },
+    {
+        "title": "Git",
+        "imageSrc": "git.png"
+    }
+]

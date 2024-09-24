@@ -1,0 +1,135 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: rgba(89, 170, 246, 0.3);
+    border-radius: 15px;
+    padding: 40px;
+    padding-bottom: 20px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.education {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.techImg {
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.title {
+    margin-bottom: 5px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+    flex-direction: flex-start;
+}
+
+.school {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+}
+
+.coursework {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-text);
+    /* background-color: rgb(25,55,109);
+    padding: 10px; */
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+}
+
+.course {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.courseName {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.newCourse {
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    background-color:rgb(25,55,109);
+    /* background-image: linear-gradient(90deg, rgba(89, 170, 246, 0.42) 0%, rgba(255,255,255,0)100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat; */
+    transition: 0.4s;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.newCourse:hover {
+    /*background-size: 100% 100%; */
+    transform: scale(1.05);
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap; /* Allows list items to wrap onto multiple lines */
+    list-style-type: disc;
+    padding-left: 20px;
+    justify-content: space-between; /* Spreads out the list items */
+}
+
+li {
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 830px) {
+    .techImg {
+        display: none;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 0;
+        align-items: center;
+    }
+
+    .education {
+        text-align: center;
+    }
+
+    .schoolInfo {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .courseName {
+        text-align: center;
+    }
+
+    ul {
+        align-items: center;
+    }
+}

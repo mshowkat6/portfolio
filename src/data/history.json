@@ -1,0 +1,29 @@
+[
+    {
+        "role": "Technical Assistant",
+        "organisation": "The Corner Cup Coffee",
+        "startDate": "Jan, 2022",
+        "endDate": "Present",
+        "experiences": ["Developed and maintained a web application and database for managing and updating inventory data.",
+                        "Leveraged website data analysis to understand customer ordering patterns and preferences, leading to the implementation of inventory level optimizations."],
+        "imageSrc": "cc.jpg"
+    },
+    {
+        "role": "Undergraduate Researcher",
+        "organisation": "Georgia Tech Vertically Integrated Project",
+        "startDate": "Aug, 2023",
+        "endDate": "Present",
+        "experiences": ["Led a multi-disciplinary research initiative focused on optimizing the medical supply chain in conflict zones across the Middle East.",
+                        "Conceptualized the development of a unified communication platform to enhance coordination and streamline interactions between NGOs and key organizations."],
+        "imageSrc": "vip.png"
+    },
+    {
+        "role": "Head of Technology",
+        "organisation": "Muslim Student Association",
+        "startDate": "Jan, 2024",
+        "endDate": "Present",
+        "experiences": ["Designed and developed a website for the Georgia Tech Muslim Student Association (MSA).",
+                        "Collaborated closely with the MSA board in regular meetings resulting in continuous improvements."],
+        "imageSrc": "msa.png"
+    }
+]
